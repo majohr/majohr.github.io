@@ -276,3 +276,50 @@ body {
 html {
     scroll-behavior: smooth;
 }
+/* ====== RESPONSIVE PARA CELULAR ====== */
+@media (max-width: 768px) {
+    
+    /* Tamaño de títulos */
+    h1, h2 {
+        font-size: 26px !important;
+    }
+
+    /* Tarjetas */
+    .card {
+        width: 180px;
+        height: 250px;
+    }
+
+    /* Sección sobre mí */
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-img {
+        width: 200px;
+    }
+
+    .sobre-texto {
+        max-width: 90%;
+        font-size: 16px;
+    }
+
+    /* Formularios de contacto */
+    .contacto form {
+        width: 90%;
+    }
+
+    .contacto input,
+    .contacto textarea {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    /* Ajuste de imágenes de fondo */
+    section {
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll; /* esto evita problemas en celular */
+    }
+}
