@@ -276,50 +276,77 @@ body {
 html {
     scroll-behavior: smooth;
 }
-/* ====== RESPONSIVE PARA CELULAR ====== */
+/* ======== RESPONSIVE PARA CELULARES ======== */
 @media (max-width: 768px) {
-    
-    /* Tamaño de títulos */
-    h1, h2 {
-        font-size: 26px !important;
+
+    /* Hero */
+    .hero h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0 20px;
     }
 
-    /* Tarjetas */
-    .card {
-        width: 180px;
-        height: 250px;
+    /* Menú en la parte superior */
+    .menu-cards {
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+        margin: 0 auto;
     }
 
-    /* Sección sobre mí */
+    .menu-cards .card {
+        width: 100%;
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    /* SOBRE MI */
     .sobre-container {
         flex-direction: column;
         text-align: center;
+        gap: 15px;
     }
 
     .sobre-img {
-        width: 200px;
+        width: 180px;
+        height: 180px;
     }
 
-    .sobre-texto {
-        max-width: 90%;
-        font-size: 16px;
+    .sobre-texto p {
+        font-size: 1rem;
+        padding: 0 15px;
     }
 
-    /* Formularios de contacto */
-    .contacto form {
-        width: 90%;
-    }
-
-    .contacto input,
-    .contacto textarea {
+    /* Carrusel de herramientas */
+    .tech-slider {
+        overflow: hidden;
         width: 100%;
-        font-size: 16px;
     }
 
-    /* Ajuste de imágenes de fondo */
-    section {
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll; /* esto evita problemas en celular */
+    .slide img {
+        width: 60px;
+    }
+
+    /* PROYECTOS */
+    .pro-card {
+        width: 250px;
+        height: 180px;
+    }
+
+    /* CONTACTO */
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .contact-item img {
+        width: 45px;
+    }
+
+    .contact-item span {
+        font-size: 1rem;
     }
 }
+
