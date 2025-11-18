@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"></stylesheet>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero">
+    <h1>¡BIENVENID@ A MI PORTAFOLIO!</h1>
+
+    <div class="menu-cards">
+        <a href="#sobre-mi" class="card">
+            <span>SOBRE MI</span>
+        </a>
+
+        <a href="#proyectos" class="card">
+            <span>PROYECTOS</span>
+        </a>
+
+        <a href="#contacto" class="card">
+            <span>CONTACTO</span>
+        </a>
+    </div>
+    </header>
+
+
+
+<!-- parte de sobre mi -->
+
+<section id="sobre-mi" class="sobre-mi">
+    <h2>SOBRE MI</h2>
+
+    <div class="sobre-container">
+        <img src="img/add586008d56e45731a242da8be0005b.gif" alt="Mi foto" class="sobre-img">
+
+        <div class="sobre-texto">
+            <p>
+                Me llamo Maria José, soy una estudiante de Ingeniería en Desarrollo y Gestión de Software con interés en el desarrollo de aplicaciones y sitios web. 
+                Me caracterizo por ser una persona responsable, autodidacta y con disposición para aprender nuevas tecnologías.
+                Me gusta trabajar en proyectos que resuelvan necesidades reales, aplicando buenas prácticas de programación y diseño.
+            </p>
+        </div>
+    </div>
+
+    <h3 class="subtitulo-herramientas">Mis herramientas de código</h3>
+
+    <!-- CARRUSEL DE HERRAMIENTAS -->
+    <div class="tech-slider">
+        <div class="slide-track">
+
+            <div class="slide"><img src="img/htmllogo.png" alt="HTML"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_180554982.png" alt="CSS"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_181400769.png" alt="C#"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_181122647.png" alt="Python"></div>
+            <div class="slide"><img src="img/mysql-pixel.png" alt="MySQL"></div>
+            <div class="slide"><img src="img/react-pixel-hd.png" alt="React"></div>
+            <div class="slide"><img src="img/df9xsqo-2fe2dc5c-9862-4a28-84bc-57adb7e2681e.png" alt="JavaScript"></div>
+            <div class="slide"><img src="img/phplogo.png" alt="php"></div>
+
+            <!-- Se repiten para el loop infinito -->
+                 <div class="slide"><img src="img/htmllogo.png" alt="HTML"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_180554982.png" alt="CSS"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_181400769.png" alt="C#"></div>
+            <div class="slide"><img src="img/imagen_2025-11-17_181122647.png" alt="Python"></div>
+            <div class="slide"><img src="img/mysql-pixel.png" alt="MySQL"></div>
+            <div class="slide"><img src="img/react-pixel-hd.png" alt="React"></div>
+            <div class="slide"><img src="img/df9xsqo-2fe2dc5c-9862-4a28-84bc-57adb7e2681e.png" alt="JavaScript"></div>
+            <div class="slide"><img src="img/phplogo.png" alt="php"></div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== SECCIÓN PROYECTOS ===== -->
+<section id="proyectos" class="proyectos">
+    <h2>PROYECTOS</h2>
+
+    <div class="projects-slider">
+        <div class="projects-track">
+
+            <!-- Proyecto 1 -->
+            <div class="pro-card" style="background-image: url('img/1.jpg');">
+                <span>Cosinsa</span>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div class="pro-card" style="background-image: url('img/2.jpg');">
+                <span>Punto de venta</span>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div class="pro-card" style="background-image: url('img/4.jpg');">
+                <span>Medify</span>
+            </div>
+
+            <!-- Proyecto 4 -->
+            <div class="pro-card" style="background-image: url('img/3.jpg');">
+                <span>Presupuesto personal</span>
+            </div>
+
+            <!-- DUPLICADOS PARA EL CARRUSEL INFINITO -->
+            <div class="pro-card" style="background-image: url('img/1.jpg');"><span>Cosinsa</span></div>
+            <div class="pro-card" style="background-image: url('img/2.jpg');"><span>Punto de venta</span></div>
+            <div class="pro-card" style="background-image: url('img/4.jpg');"><span>Medify</span></div>
+            <div class="pro-card" style="background-image: url('img/3.jpg');"><span>Presupuesto personal</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SECCIÓN CONTACTO ===== -->
+<section class="contacto" id="contacto">
+    <h2>CONTACTO</h2>
+
+    <div class="contact-container">
+
+        <a href="https://www.instagram.com/Muriicake" target="_blank" class="contact-item">
+            <img src="img/insta.png" alt="Instagram">
+            <span>@Muriicake</span>
+        </a>
+
+        <a href="mailto:Majoseuni@gmail.com" class="contact-item">
+            <img src="img/descargar.png" alt="Gmail">
+            <span>Majoseuni@gmail.com</span>
+        </a>
+
+    </div>
+</section>
+
+
+</body>
+</html>
